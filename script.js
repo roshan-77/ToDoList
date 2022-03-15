@@ -1,4 +1,4 @@
-//store all the selectors in a variable
+//stores all the selectors in a variable
 let todo_item = document.querySelector(".input-field");
 let add_button = document.querySelector(".button1");
 let clear_button = document.querySelector(".clear")
