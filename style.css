@@ -1,0 +1,85 @@
+body{
+    background-color: grey;
+    /* font-size: small; */
+}
+
+.header1{
+    padding: 5px;
+    background-color:rgb(133, 150, 179);
+    border-radius: 5px solid black;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+.header2{
+    padding: 5px;
+    background-color: rgb(202, 143, 14);
+    border-radius: 5px solid black;
+}
+
+
+body>section{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.input-field-area{
+    text-align: center;
+    height: 100px;
+}
+
+.input-field-area input{
+    /* height: 30px;
+    width: 200px; */
+    padding: 10px;
+    font-size: large;
+    border: 2px solid blue;
+}
+
+.input-field-area button{
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.list-area{
+    display: grid;
+    grid-template-columns: minmax(0,1fr) 50%;
+    
+}
+
+.list-area .positive-list-area{
+    background-color: #03fcf8;
+}
+
+.list-area .done-list-area{
+    background-color: rgb(233, 99, 10);
+}
+
+
+/*------to-do-activities---------*/
+
+.to-do-activities{
+    display: flex;
+    margin: 10px 0;
+}
+
+.to-do-activities div{
+    flex: auto;
+    font-size: large;
+    padding-left: 5px;
+}
+
+.completed-activities{
+    display: flex;
+    margin: 10px 0;
+}
+
+.completed-activities div{
+    flex:auto;
+    font-size: large;
+    padding-left: 5px;
+}
+
+
