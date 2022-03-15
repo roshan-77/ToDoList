@@ -5,7 +5,11 @@ let clear_button = document.querySelector(".clear")
 let positive_list = document.querySelector(".positive-list-area")
 let done_list = document.querySelector(".done-list-area")
 
+<<<<<<< HEAD
 //Initialise a value to give id to all the items added in a list.
+=======
+//initialise a value to give id to all the items added in a list
+>>>>>>> 3493d95486bb94f8750f956bf2c7a22b8f994ce7
 let idVal=0
 
 //this function adds the todo activities in a list
